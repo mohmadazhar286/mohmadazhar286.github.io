@@ -1,0 +1,32 @@
+{
+  "name": "am-ai",
+  "version": "1.0.0",
+  "description": "React/Vite portfolio for GitHub Pages.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build && node scripts/copy-dist-to-root.mjs",
+    "preview": "vite preview --host 127.0.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohmadazhar286/mohmadazhar286.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mohmadazhar286/mohmadazhar286.github.io/issues"
+  },
+  "homepage": "https://github.com/mohmadazhar286/mohmadazhar286.github.io#readme",
+  "dependencies": {
+    "lucide-react": "^1.16.0",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.0.2",
+    "vite": "^8.0.14"
+  }
+}

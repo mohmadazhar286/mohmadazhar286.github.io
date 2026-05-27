@@ -1,10 +1,21 @@
 # Dr. Mohmad Azhar Teli Portfolio
 
-Static portfolio for GitHub Pages.
+React/Vite portfolio for GitHub Pages.
 
 ## Local preview
 
-Open `index.html` directly in a browser, or serve the repository root with any static web server.
+```powershell
+npm.cmd install
+npm.cmd run dev
+```
+
+## Production build
+
+```powershell
+npm.cmd run build
+```
+
+The Vite source lives in `app/`. The production build writes deployable static files to the repository root for GitHub Pages.
 
 ## Sections
 
